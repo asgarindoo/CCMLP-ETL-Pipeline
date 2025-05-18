@@ -1,0 +1,11 @@
+# Menjalankan script
+python3 main.py
+
+# Menjalankan unit test pada folder tests
+python3 -m pytest tests/
+
+# Menjalankan test coverage pada folder tests
+python3 -m pytest tests/ --cov=tests --cov-report=term-missing
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1nR6fobk15VNJwdSFa6hjZYqDh71eq3XBQheeUCb6JCA/edit?gid=0#gid=0
